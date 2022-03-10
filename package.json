@@ -1,0 +1,32 @@
+{
+  "name": "agenciaviajes",
+  "version": "1.0.0",
+  "description": "Proyecto con Node JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angellox/Agencia-de-Viajes.git"
+  },
+  "author": "Ángel Cruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angellox/Agencia-de-Viajes/issues"
+  },
+  "homepage": "https://github.com/angellox/Agencia-de-Viajes#readme",
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "express": "^4.17.3",
+    "mysql2": "^2.3.3",
+    "pug": "^3.0.2",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
